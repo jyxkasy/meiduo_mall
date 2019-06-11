@@ -33,4 +33,3 @@ class RegisterView(View):
         if allow != 'on':
             return http.HttpResponseBadRequest('请勾选用户协议')
     
-        
