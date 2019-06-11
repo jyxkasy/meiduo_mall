@@ -32,5 +32,5 @@ class RegisterView(View):
             return http.HttpResponseBadRequest('请输入正确的手机号码')
         if allow != 'on':
             return http.HttpResponseBadRequest('请勾选用户协议')
-
+    
         
