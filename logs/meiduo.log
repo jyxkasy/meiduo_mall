@@ -1,0 +1,308 @@
+INFO 2019-06-11 08:46:07,394 basehttp 124 "GET / HTTP/1.1" 200 1716
+INFO 2019-06-11 08:46:07,410 basehttp 124 "GET / HTTP/1.1" 200 1716
+WARNING 2019-06-11 08:46:07,723 base 152 Not Found: /favicon.ico
+WARNING 2019-06-11 08:46:07,729 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 1967
+WARNING 2019-06-11 09:25:18,783 base 152 Not Found: /
+WARNING 2019-06-11 09:25:18,784 basehttp 124 "GET / HTTP/1.1" 404 2079
+WARNING 2019-06-11 09:25:18,794 base 152 Not Found: /
+WARNING 2019-06-11 09:25:18,794 basehttp 124 "GET / HTTP/1.1" 404 2079
+WARNING 2019-06-11 09:25:18,841 base 152 Not Found: /favicon.ico
+WARNING 2019-06-11 09:25:18,841 basehttp 124 "GET /favicon.ico HTTP/1.1" 404 2130
+INFO 2019-06-11 09:25:38,648 basehttp 124 "GET /registration HTTP/1.1" 301 0
+ERROR 2019-06-11 09:25:38,651 exception 135 Internal Server Error: /registration/
+Traceback (most recent call last):
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/lsy/Desktop/meiduo/meiduo_mall/apps/users/views.py", line 9, in get
+    return render(request, 'registration.html')
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration.html
+ERROR 2019-06-11 09:25:38,701 basehttp 124 "GET /registration/ HTTP/1.1" 500 94092
+ERROR 2019-06-11 09:27:56,317 exception 135 Internal Server Error: /registration/
+Traceback (most recent call last):
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/lsy/Desktop/meiduo/meiduo_mall/apps/users/views.py", line 9, in get
+    return render(request, 'registration.html')
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration.html
+ERROR 2019-06-11 09:27:56,354 basehttp 124 "GET /registration/ HTTP/1.1" 500 94227
+ERROR 2019-06-11 09:27:57,334 exception 135 Internal Server Error: /registration/
+Traceback (most recent call last):
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/lsy/Desktop/meiduo/meiduo_mall/apps/users/views.py", line 9, in get
+    return render(request, 'registration.html')
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration.html
+ERROR 2019-06-11 09:27:57,373 basehttp 124 "GET /registration/ HTTP/1.1" 500 94227
+ERROR 2019-06-11 09:30:39,797 exception 135 Internal Server Error: /registration/
+Traceback (most recent call last):
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/lsy/Desktop/meiduo/meiduo_mall/apps/users/views.py", line 9, in get
+    return render(request, 'registration.html')
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration.html
+ERROR 2019-06-11 09:30:39,835 basehttp 124 "GET /registration/ HTTP/1.1" 500 94227
+ERROR 2019-06-11 09:30:41,025 exception 135 Internal Server Error: /registration/
+Traceback (most recent call last):
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/lsy/Desktop/meiduo/meiduo_mall/apps/users/views.py", line 9, in get
+    return render(request, 'registration.html')
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration.html
+ERROR 2019-06-11 09:30:41,061 basehttp 124 "GET /registration/ HTTP/1.1" 500 94227
+ERROR 2019-06-11 09:30:41,574 exception 135 Internal Server Error: /registration/
+Traceback (most recent call last):
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/lsy/Desktop/meiduo/meiduo_mall/apps/users/views.py", line 9, in get
+    return render(request, 'registration.html')
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration.html
+ERROR 2019-06-11 09:30:41,610 basehttp 124 "GET /registration/ HTTP/1.1" 500 94227
+ERROR 2019-06-11 09:30:41,738 exception 135 Internal Server Error: /registration/
+Traceback (most recent call last):
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/lsy/Desktop/meiduo/meiduo_mall/apps/users/views.py", line 9, in get
+    return render(request, 'registration.html')
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration.html
+ERROR 2019-06-11 09:30:41,777 basehttp 124 "GET /registration/ HTTP/1.1" 500 94227
+ERROR 2019-06-11 09:35:31,414 exception 135 Internal Server Error: /registration/
+Traceback (most recent call last):
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/lsy/Desktop/meiduo/meiduo_mall/apps/users/views.py", line 9, in get
+    return render(request, 'registration.html')
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration.html
+ERROR 2019-06-11 09:35:31,485 basehttp 124 "GET /registration/ HTTP/1.1" 500 94227
+ERROR 2019-06-11 09:35:32,425 exception 135 Internal Server Error: /registration/
+Traceback (most recent call last):
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/lsy/Desktop/meiduo/meiduo_mall/apps/users/views.py", line 9, in get
+    return render(request, 'registration.html')
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration.html
+ERROR 2019-06-11 09:35:32,460 basehttp 124 "GET /registration/ HTTP/1.1" 500 94227
+ERROR 2019-06-11 09:35:41,272 exception 135 Internal Server Error: /registration/
+Traceback (most recent call last):
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/lsy/Desktop/meiduo/meiduo_mall/apps/users/views.py", line 9, in get
+    return render(request, 'registration.html')
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration.html
+ERROR 2019-06-11 09:35:41,312 basehttp 124 "GET /registration/ HTTP/1.1" 500 94227
+ERROR 2019-06-11 09:35:42,355 exception 135 Internal Server Error: /registration/
+Traceback (most recent call last):
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/lsy/Desktop/meiduo/meiduo_mall/apps/users/views.py", line 9, in get
+    return render(request, 'registration.html')
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration.html
+ERROR 2019-06-11 09:35:42,395 basehttp 124 "GET /registration/ HTTP/1.1" 500 94227
+ERROR 2019-06-11 09:35:43,373 exception 135 Internal Server Error: /registration/
+Traceback (most recent call last):
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/lsy/Desktop/meiduo/meiduo_mall/apps/users/views.py", line 9, in get
+    return render(request, 'registration.html')
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration.html
+ERROR 2019-06-11 09:35:43,409 basehttp 124 "GET /registration/ HTTP/1.1" 500 94227
+ERROR 2019-06-11 09:36:03,154 exception 135 Internal Server Error: /registration/
+Traceback (most recent call last):
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/lsy/Desktop/meiduo/meiduo_mall/apps/users/views.py", line 9, in get
+    return render(request, 'registration.html')
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/lsy/.virtualenvs/py3_django/lib/python3.5/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: registration.html
+ERROR 2019-06-11 09:36:03,193 basehttp 124 "GET /registration/ HTTP/1.1" 500 94227
+INFO 2019-06-11 09:40:01,338 basehttp 124 "GET /registration/ HTTP/1.1" 200 3282
+INFO 2019-06-11 09:40:01,352 basehttp 124 "GET /static/css/reset.css HTTP/1.1" 200 638
+INFO 2019-06-11 09:40:01,356 basehttp 124 "GET /static/css/main.css HTTP/1.1" 200 39722
+INFO 2019-06-11 09:40:01,361 basehttp 124 "GET /static/images/pic_code.jpg HTTP/1.1" 200 4507
+INFO 2019-06-11 09:40:01,361 basehttp 124 "GET /static/js/host.js HTTP/1.1" 200 80
+INFO 2019-06-11 09:40:01,362 basehttp 124 "GET /static/images/logo.png HTTP/1.1" 200 7450
+INFO 2019-06-11 09:40:01,369 basehttp 124 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2019-06-11 09:40:01,371 basehttp 124 "GET /static/images/interval_line.png HTTP/1.1" 200 1123
+INFO 2019-06-11 09:40:01,371 basehttp 124 "GET /static/js/register.js HTTP/1.1" 200 7825
+INFO 2019-06-11 09:40:01,375 basehttp 124 "GET /static/images/icons02.png HTTP/1.1" 200 3935
+INFO 2019-06-11 09:40:01,375 basehttp 124 "GET /static/images/register_banner.png HTTP/1.1" 200 54894
